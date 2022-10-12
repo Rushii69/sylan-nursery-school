@@ -1,0 +1,248 @@
+﻿<html>
+  <head>
+    <title>Watch Studio Ghiblie Online</title>
+    <style>
+      /*body*/
+      .body{
+        background: black; 
+      }
+      /*sections*/
+      .top-menu-section{
+        border-radius: 25px;
+        border: 2px solid #F0FFFF;
+        padding: 20px;
+        margin-top: 145px;
+        margin-left: 350px;
+        margin-right:350px;
+        height: 130%;
+        background-color: gray;
+      }
+      .top-rated-section{
+        border-radius: 5px;
+        height: 160px;
+        background-color: #FDF5E6;
+      }
+      .left-pane-section{
+        border-radius: 6px;
+        position:absolute;
+        height: 65%;
+        width: 150px;
+        background-color: #FDF5E6;
+        right: 380px; 
+
+      }
+      .right-pane-section{
+        border-radius: 5px;
+        position:absolute;
+        height: 75%;
+        width: 400px;
+        background-color: #FDF5E6;
+        left: 380px; 
+
+      }
+      /*texts*/
+      .top-menu-links{
+        position: absolute; 
+        top: 160px;
+        border-radius: 5px;
+        background: #FDF5E6;
+        color: gray;
+        font-size: 13;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+        width: 75px;
+        text-align: center;
+        padding: 5px;
+      }
+      .title-text{
+        position: absolute;
+        top: 205px;
+        color: #696969;
+        font-size: 20;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+        left: 500px;
+      }
+      .genre-label-text{
+        position: absolute;
+        top: 235px;
+        color: #C0C0C0;
+        font-size: 12;
+        font-family: "Courier New", Courier, monospace;
+        left: 500px;
+      }
+      .description-text{
+        position: absolute;
+        top: 245px;
+        color: gray;
+        font-size: 9;
+        font-family: "Courier New", Courier, monospace;
+        left: 500px;
+        
+      }
+      .announcements-text{
+        position:absolute;
+        border-radius: 2px;
+        background: #DB7093;
+        color: white;
+        font-size: 12;
+        font-family: "Courier New", Courier, monospace;
+        right: 10px;
+        font-weight: bold;
+        width: auto;
+        text-align: center;
+        padding: 5px;
+        left: 5px;
+        
+      }
+      .right-pane-links{
+        border-radius: 5px;
+        color: white;
+        font-size: 11;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+        width: auto;
+        text-align: center;
+        padding: 5px;
+      }
+      .feature-text{
+        position: absolute;
+        color:#DB7093;
+        font-size: 10;
+        font-weight: bold;
+        font-family: "Courier New", Courier, monospace;
+        left: 100px;
+      }
+      /*images*/
+      .logo-image{
+        width:200px; 
+        height: 150x; 
+        margin-left: 400px; 
+        float: left;
+      }
+      .top-image{
+        border-radius: 2px;
+        top: 205px;
+        width:100px; 
+        height: 125px; 
+        position: absolute;
+        left: 390px;
+      }
+      .feature-image{
+        border-radius: 5px;
+        position:absolute;
+        width:75px; 
+        height: 100px;
+        left: 5px;
+      }
+      /*input*/
+      .search{
+        margin-top: 100px; 
+        margin-right: 400px; 
+        float:right;
+      }
+      /*animations and designs*/
+      .blink {
+      animation: blinker .9s linear infinite;
+      color: gray;
+      font-weight: bold;
+      position: absolute;
+      font-size: 12;
+      font-family: "Courier New", Courier, monospace;
+      }
+      @keyframes blinker {  
+      50% { opacity: 0; }
+      }
+      .line{
+        border-top: 1px solid #FFC0CB;;
+      }
+    </style>
+  </head>
+<body class='body'>
+  <div>
+    <img src='logo.png' class='logo-image'>
+    <form class='search'>
+      <input type="text" placeholder="Search.." name="search" style='width: 200px;'>
+      <button type="submit"><i class="fa fa-search">Search</i></button>
+    </form> 
+  </div>
+  <br>
+  <div class='top-menu-section'>
+    <a href="index.html" class='top-menu-links' style= 'left: 390px;'>Home</a>
+    <a href="movies.html" class='top-menu-links' style= 'left: 480px;'>Movies</a>
+    <a href="index.html" class='top-menu-links' style= 'left: 570px;'>Manga</a>
+    <a href="index.html"  class='top-menu-links' style= 'left: 660px;'>Characters</a>
+    <div class='top-rated-section'>
+      <img src ='spirited-away.png' class='top-image'>
+      <a href='index.html' class='title-text'>Spirited Away</a>
+      <strong class='genre-label-text'>Genres: </strong>
+      <strong class='genre-label-text' style='left: 550px; color: #DB7093;'>Adventure, Drama, Dub, Movie, Romance, Supernatural</strong>
+      <p class='description-text'>On the way to their new home, 10-year-old Chihiro Ogino's family stumbles 
+        <br>upon a deserted theme park. Intrigued, the family investigates the park, 
+        <br> though unknown to them, it is secretly inhabited by spirits who sleep by
+        <br> day and appear at night. When Chihiro's mother and father eat food from a 
+        <br> restaurant in the street, angry spirits turns them into pigs. Furthermo...
+      </p>
+    </div>
+    <br>
+    <div class='left-pane-section'>
+      <div class='announcements-text' style='background: gray; top: 10px;left: 10px; height: 12px; width: 125px;'></div>
+      <strong class='announcements-text'>Trending</strong>
+      <b class='blink' style='top: 50px;left: 10px;'>- Studio Ghibli is working on two new films in 2020</b>
+      <div class='announcements-text' style='background: gray; top: 160px;left: 10px; height: 12px; width: 125px;'></div>
+      <strong class='announcements-text' style='top: 150px;'>Announcement</strong>
+      <b class='description-text' style='top: 200px;left: 10px;'>- Next month 21 Studio Ghibli films are coming to Netflix.</b>
+      <div class='announcements-text' style='background: gray; top: 310px;left: 10px; height: 12px; width: 125px;'></div>
+      <strong class='announcements-text' style='top: 300px;'>Contact Us</strong>
+      <b class='genre-label-text' style='top: 350px;left: 10px; font-size: 10px'>Address: </b>
+      <b class='description-text' style='top: 364px;left: 10px; font-size: 9px; color: #DB7093;'>1 Chome-1-83 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan</b>
+  
+    </div>
+    <a href="index.html" class='right-pane-links' style='background: #DB7093;'>New & Hot</a>
+    <a href="index.html" class='right-pane-links' style='width:auto; background: #FFC0CB;'>Recent Addition</a>
+    <a href="index.html" class='right-pane-links' style='width:auto; background: #FFC0CB;'>Most Popular</a>
+    <div class='right-pane-section'>
+      <img src='when-marnie-was-there.jpg' class='feature-image' style='top:5px;'>
+      <a href='index.html' class='feature-text' style='top: 13px;'>When Marnie Was There</a><br><br>
+      <strong class='feature-text' style='color:#C0C0C0;'>Genres: </strong>
+      <strong class='feature-text' style='left:145px;'>Movie, Mystery, Psychological</strong><br>
+      <strong class='feature-text' >Anna, a young girl living in Sapporo, is having trouble with her classmates. 
+      Due to asthma attacks, a doctor suggests that Anna move somewhere more relaxing. 
+      After moving to the countryside to her family...</strong><br><br><br>
+      <div class='line'></div>
+      <img src='the-tale-of-princess-kaguya.jpg' class='feature-image' style='top:113px;'>
+      <a href='index.html' class='feature-text' style='top: 120px;'>The Tale of the Princess Kaguya</a><br><br>
+      <strong class='feature-text' style='color:#C0C0C0;'>Genres: </strong>
+      <strong class='feature-text' style='left:145px;'>MDub, Fantasy, Historical, Movie</strong><br>
+      <strong class='feature-text' >Okina is a bamboo cutter in ancient rural Japan. 
+      One day in the forest, he finds a tiny baby in the folds of a bamboo shoot. 
+      He brings the creature home to his wife Ounaa and they decide to keep her and raise her as a princess...</strong><br><br><br>
+      <div class='line'></div>
+      <img src='the-wind-rises.jpg' class='feature-image' style='top:223px;'>
+      <a href='index.html' class='feature-text' style='top: 230px;'>The Wind Rises</a><br><br>
+      <strong class='feature-text' style='color:#C0C0C0;'>Genres: </strong>
+      <strong class='feature-text' style='left:145px;'>MDub, Fantasy, Historical, Movie</strong><br>
+      <strong class='feature-text' >Jirou dreams of flying and designing beautiful airplanes, inspired by the famous Italian aeronautical designer Caproni. 
+      Nearsighted from a young age and thus unable to become a pilot, Jirou joins the aircraft...</strong><br><br><br>
+      <div class='line'></div>
+      <img src='from-up-on-poppy-hill.jpg' class='feature-image' style='top:332px;'>
+      <a href='index.html' class='feature-text' style='top: 337px;'>From Up on Poppy Hill</a><br><br>
+      <strong class='feature-text' style='color:#C0C0C0;'>Genres: </strong>
+      <strong class='feature-text' style='left:145px;'>Historical, Movie, Shoujo, Dub</strong><br>
+      <strong class='feature-text' >The 1964 Tokyo Olympics represented a new start for Japan—out with the old Meiji-era buildings 
+      that reminded citizens of bad times, in with innovation that spoke to the future of a newly peaceful and increasingly prosperous country...</strong><br><br><br>
+      <div class='line'></div><br>
+      <a href='index.html' class='feature-text' style='text-decoration:none; left: 350px; font-size: 12;'>More..</a>
+      <i class='feature-text' style='top: 530px;left:0px;color: #C0C0C0; font-size: 9;'>&nbsp;&nbsp;&nbsp;&nbsp;The name Ghibli was given by Hayao Miyazaki 
+      from the Italian noun ghibli,based on the Libyan-Arabic name for the hot desert wind of that country,the idea being the studio would 
+      "blow a new wind through the anime industry".It also refers to an Italian aircraft, the Caproni Ca.309 Ghibli.
+      Although the Italian word is more accurately transliterated as ギブリ (Giburi), the Japanese name of the studio is ジブリ (Jiburi).</i>
+      <img src='fun-fact.png' class='feature-image' style='left:500px; top:490px;'>
+    </div>   
+  </div>
+<hr>
+<center>
+<font color='white' >Copyright 2020
+<br> Designed by: Rusyl Anne D. Espina</font>
+</body>
+</html>
